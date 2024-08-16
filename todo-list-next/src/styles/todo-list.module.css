@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mainInputContainer {
+    margin-bottom: 20px;
+}
+
+.mainInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.filters {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filterBtn {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filterBtn:hover {
+    background-color: #e0e0e0;
+}
+
+.filterActive {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
