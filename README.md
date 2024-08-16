@@ -20,7 +20,8 @@ A simple To-Do list application built with **NestJS** for the backend and **Next
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v20 )
-- [npm](https://www.npmjs.com/) or [Yarn](https://classic.yarnpkg.com/)
+- [npm](https://www.npmjs.com/) 
+- [Docker] (https://www.npmjs.com/)
 
 ### Installation
 
@@ -56,6 +57,7 @@ A simple To-Do list application built with **NestJS** for the backend and **Next
 
     ```bash
     cd todo-list-nest
+    docker-compose up -d
     npm run start:dev 
     ```
 
